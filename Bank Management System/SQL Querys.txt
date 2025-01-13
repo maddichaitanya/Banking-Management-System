@@ -1,0 +1,26 @@
+create database bankmanagementsystem; //For crateing database name
+
+show databases; //showing database name 
+
+use bankmanagementsystem;//use database
+ 
+//creat table in database 
+create table signup(formno varchar(20),name varchar(50),father_name varchar(50), dop varchar(20),gender varchar(50),email varchar(30),marital_status varchar(20),address varchar(50),city varchar(30),state varchar(30),pincode varchar(20));
+
+show tables; //show the table 
+
+select * from signup; //To View the data in the table 
+
+
+//creating  table for signuptwo
+create table signuptwo(formno varchar(20),religion varchar(20),catagory varchar(20), income varchar(20),education varchar(50),occuption varchar(30),pan_number varchar(20),Aadhar_number varchar(50),eniorcitizien varchar(30),exisitingaccount varchar(30));
+
+//Creating table for signupthree
+create table signupthree(formno varchar(20),accountType varchar(40),cardnumber varchar(25),pin varchar(10),facility varchar(100));
+
+
+//creating table for bank
+create table bank(pin varchar(10),date varchar(50),type varchar(20),amount varchar(20)) ;
+
+//to run bank data base
+select * from bank;
